@@ -1,5 +1,6 @@
 {
   "name": "fluxofuntetsing",
+  "homepage": "https://jhashivam0022.github.io/website-testing-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "deploy": "npm run build && npx gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^19.0.0",

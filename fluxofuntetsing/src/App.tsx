@@ -2,9 +2,6 @@
 import './App.css'
 
 function App() {
-  const onclick = () => {
-    console.log('Hello World');
-  }
 
   return (
     <>
